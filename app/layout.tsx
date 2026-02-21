@@ -39,8 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="id" className={`${satoshi.variable}`}> 
-      <body className="bg-[#0D0B0A] text-[#E8C9A9] antialiased"> 
+    <html lang="id" className={`${satoshi.variable}`}>\n      <body className="bg-[#0D0B0A] text-[#E8C9A9] antialiased">
         {children}
       </body>
     </html>
